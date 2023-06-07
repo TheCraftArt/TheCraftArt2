@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 166, 231);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+#conteItemsCarrusel{
+    border:  2px solid black;
+    overflow: hidden;
+}
+
+.itemCarrusel{
+    border: 1px solid black;
+    height: 100px;
+    position: relative;
+}
+
+.tarjetCarrusel{
+    background-color: rgb(154, 106, 199);
+    height: 100%;
+}
+
+.flechasCarrusel{
+    background-color: rgba(215, 172, 255, 0);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contePuntos{
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    justify-content: space-around;
+}
+
+#contePuntos > a{
+    font-size: 2em;
+}
+
+img{
+   width: 10%;
+   height: 100%;
+}
+
